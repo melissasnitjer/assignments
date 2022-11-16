@@ -1,0 +1,19 @@
+$textbackground: #fff;
+$pagebackground: #c3cfe2;
+$footer: #686de0;
+
+@mixin grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin box-border1($radius) {
+    border: 0px solid black;
+    border-radius: $radius;
+  }
+  
+  @mixin box-border2($radius) {
+    border: 10px solid white;
+    border-radius: $radius;
+  }
